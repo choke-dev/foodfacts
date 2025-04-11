@@ -45,7 +45,7 @@
 <div
 	class="flex h-full w-full items-center justify-evenly gap-4 rounded-xl p-4 md:max-lg:flex-col {bgColor}"
 >
-	<img alt="Green-Score" {src} class="h-20" />
+	<img alt="Green-Score" {src} class="h-9" />
 	<div class="flex flex-col">
 		<div class="text-xl font-semibold {textColor}">Green-Score {grade.toUpperCase()}</div>
 		<div class="text-black">{name}</div>

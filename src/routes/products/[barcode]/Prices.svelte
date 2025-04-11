@@ -166,7 +166,7 @@
 									Loading...
 								{:then storeName}
 									<a
-										href={`https://www.openstreetmap.org/${(price.location_osm_type ?? 'node').toLowerCase()}/${
+										href={`https://corsproxy.io/?url=https://www.openstreetmap.org/${(price.location_osm_type ?? 'node').toLowerCase()}/${
 											price.location_osm_id
 										}`}
 									>

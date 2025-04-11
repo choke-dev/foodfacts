@@ -9,7 +9,7 @@
 
 	const MAX_INITIAL_ZOOM = 3;
 	const MAX_ZOOM = 19;
-	const TILES_BASE_URL = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
+	const TILES_BASE_URL = 'https://corsproxy.io/?url=https://tile.openstreetmap.org/{z}/{x}/{y}.png';
 	const ATTRIBUTION = '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>';
 
 	let mapContainer: HTMLElement;

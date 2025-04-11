@@ -15,7 +15,7 @@
 
 <svelte:head>
 	<!-- Preconnect to static assets -->
-	<link rel="preconnect" href="https://images.openfoodfacts.org" crossorigin="anonymous" />
+	<link rel="preconnect" href="https://corsproxy.io/?url=https://images.openfoodfacts.org" crossorigin="anonymous" />
 
 	<title>Open Food Facts Explorer</title>
 </svelte:head>

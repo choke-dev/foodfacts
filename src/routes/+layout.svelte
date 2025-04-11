@@ -12,7 +12,7 @@
 	import { goto } from '$app/navigation';
 	import { page } from '$app/state';
 
-	const GITHUB_REPO_URL = 'https://github.com/openfoodfacts/openfoodfacts-explorer';
+	const GITHUB_REPO_URL = 'https://corsproxy.io/?url=https://github.com/openfoodfacts/openfoodfacts-explorer';
 
 	interface Props {
 		children?: import('svelte').Snippet;

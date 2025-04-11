@@ -190,7 +190,7 @@
 		<div class="my-4">
 			<a
 				class="btn btn-secondary"
-				href="https://www.gs1.org/services/verified-by-gs1/results?gtin={barcode}"
+				href="https://corsproxy.io/?url=https://www.gs1.org/services/verified-by-gs1/results?gtin={barcode}"
 				target="_blank"
 				rel="noopener noreferrer"
 			>
@@ -200,7 +200,7 @@
 		<p class="text-secondary mt-4 text-end text-sm italic">
 			Source: <a
 				class="link"
-				href="https://www.gs1.org/standards/id-keys/company-prefix"
+				href="https://corsproxy.io/?url=https://www.gs1.org/standards/id-keys/company-prefix"
 				target="_blank"
 				rel="noopener noreferrer">GS1</a
 			>

@@ -27,7 +27,7 @@
 
 	<p>
 		<span class="font-bold">Wikidata: </span>
-		<a href={`https://www.wikidata.org/wiki/${wikidata}`} class="link">
+		<a href={`https://corsproxy.io/?url=https://www.wikidata.org/wiki/${wikidata}`} class="link">
 			{wikidata}
 		</a>
 	</p>
@@ -38,7 +38,7 @@
 
 	<p>
 		<span class="font-bold">Wikidata category: </span>
-		<a href={`https://www.wikidata.org/wiki/${wikidata_category}`} class="link">
+		<a href={`https://corsproxy.io/?url=https://www.wikidata.org/wiki/${wikidata_category}`} class="link">
 			{wikidata_category}
 		</a>
 	</p>

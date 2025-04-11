@@ -1,31 +1,31 @@
 <script lang="ts">
 	const projectLinks = [
-		{ url: 'https://world.openfoodfacts.org/who-we-are', text: 'Who we are' },
+		{ url: 'https://corsproxy.io/?url=https://world.openfoodfacts.org/who-we-are', text: 'Who we are' },
 		{
-			url: 'https://world.openfoodfacts.org/open-food-facts-vision-mission-values-and-programs',
+			url: 'https://corsproxy.io/?url=https://world.openfoodfacts.org/open-food-facts-vision-mission-values-and-programs',
 			text: 'Vision, Mission, Values and Programs'
 		},
-		{ url: 'https://support.openfoodfacts.org/help/en-gb', text: 'Frequently asked questions' },
-		{ url: 'https://blog.openfoodfacts.org/en/', text: 'Open Food Facts blog' },
-		{ url: 'https://world.openfoodfacts.org/press', text: 'Press' },
-		{ url: 'https://wiki.openfoodfacts.org/', text: 'Open Food Facts wiki (en)' },
-		{ url: 'https://world.openfoodfacts.org/cgi/top_translators.pl', text: 'Translators' },
-		{ url: 'https://world.openfoodfacts.org/partners', text: 'Partners' },
-		{ url: 'https://world.openbeautyfacts.org/', text: 'Open Food Facts - Cosmetics' },
-		{ url: 'https://world.pro.openfoodfacts.org/', text: 'Open Food Facts for Producers' }
+		{ url: 'https://corsproxy.io/?url=https://support.openfoodfacts.org/help/en-gb', text: 'Frequently asked questions' },
+		{ url: 'https://corsproxy.io/?url=https://blog.openfoodfacts.org/en/', text: 'Open Food Facts blog' },
+		{ url: 'https://corsproxy.io/?url=https://world.openfoodfacts.org/press', text: 'Press' },
+		{ url: 'https://corsproxy.io/?url=https://wiki.openfoodfacts.org/', text: 'Open Food Facts wiki (en)' },
+		{ url: 'https://corsproxy.io/?url=https://world.openfoodfacts.org/cgi/top_translators.pl', text: 'Translators' },
+		{ url: 'https://corsproxy.io/?url=https://world.openfoodfacts.org/partners', text: 'Partners' },
+		{ url: 'https://corsproxy.io/?url=https://world.openbeautyfacts.org/', text: 'Open Food Facts - Cosmetics' },
+		{ url: 'https://corsproxy.io/?url=https://world.pro.openfoodfacts.org/', text: 'Open Food Facts for Producers' }
 	];
 
 	const footerLinks = [
-		{ url: 'https://world.openfoodfacts.org/legal', text: 'Legal' },
-		{ url: 'https://world.openfoodfacts.org/privacy', text: 'Privacy' },
-		{ url: 'https://world.openfoodfacts.org/terms-of-use', text: 'Terms of use' },
-		{ url: 'https://world.openfoodfacts.org/data', text: 'Data, API and SDKs' },
+		{ url: 'https://corsproxy.io/?url=https://world.openfoodfacts.org/legal', text: 'Legal' },
+		{ url: 'https://corsproxy.io/?url=https://world.openfoodfacts.org/privacy', text: 'Privacy' },
+		{ url: 'https://corsproxy.io/?url=https://world.openfoodfacts.org/terms-of-use', text: 'Terms of use' },
+		{ url: 'https://corsproxy.io/?url=https://world.openfoodfacts.org/data', text: 'Data, API and SDKs' },
 		{
-			url: 'https://world.openfoodfacts.org/donate-to-open-food-facts',
+			url: 'https://corsproxy.io/?url=https://world.openfoodfacts.org/donate-to-open-food-facts',
 			text: 'Donate to Open Food Facts'
 		},
-		{ url: 'https://world.pro.openfoodfacts.org/', text: 'Producers' },
-		{ url: 'https://link.openfoodfacts.org/newsletter-en', text: 'Subscribe to our newsletter' }
+		{ url: 'https://corsproxy.io/?url=https://world.pro.openfoodfacts.org/', text: 'Producers' },
+		{ url: 'https://corsproxy.io/?url=https://link.openfoodfacts.org/newsletter-en', text: 'Subscribe to our newsletter' }
 	];
 </script>
 
@@ -35,29 +35,29 @@
 	<div class="flex flex-col gap-1">
 		<div class="text-lg font-bold">Join the community</div>
 		<div>
-			Discover our <a href="https://world.openfoodfacts.org/code-of-conduct" class="underline"
+			Discover our <a href="https://corsproxy.io/?url=https://world.openfoodfacts.org/code-of-conduct" class="underline"
 				>Code of conduct</a
 			>
 		</div>
-		<div><a href="https://forum.openfoodfacts.org/" class="underline">Forum</a></div>
+		<div><a href="https://corsproxy.io/?url=https://forum.openfoodfacts.org/" class="underline">Forum</a></div>
 		<div class="flex gap-2">
 			<div>Follow us:</div>
 			<a
-				href="https://twitter.com/OpenFoodFacts"
+				href="https://corsproxy.io/?url=https://twitter.com/OpenFoodFacts"
 				target="_blank"
 				aria-label="Open Food Facts X (formerly Twitter)"
 			>
 				<span class="icon-[logos--x] h-6 w-5"></span>
 			</a>
 			<a
-				href="https://www.facebook.com/OpenFoodFacts?utm_source=off&utf_medium=web"
+				href="https://corsproxy.io/?url=https://www.facebook.com/OpenFoodFacts?utm_source=off&utf_medium=web"
 				target="_blank"
 				aria-label="Open Food Facts Facebook"
 			>
 				<span class="icon-[mdi--facebook] h-6 w-6"></span>
 			</a>
 			<a
-				href="https://www.instagram.com/open.food.facts/"
+				href="https://corsproxy.io/?url=https://www.instagram.com/open.food.facts/"
 				target="_blank"
 				aria-label="Open Food Facts Instagram"
 			>
@@ -65,7 +65,7 @@
 			</a>
 		</div>
 		<div>
-			<a href="https://link.openfoodfacts.org/newsletter-en" class="underline"
+			<a href="https://corsproxy.io/?url=https://link.openfoodfacts.org/newsletter-en" class="underline"
 				>Subscribe to our newsletter</a
 			>
 		</div>
@@ -88,11 +88,11 @@
 <div class="bg-base-200 flex flex-col items-center justify-center gap-3 px-6 py-5">
 	<picture>
 		<source
-			srcset="https://static.openfoodfacts.org/images/logos/off-logo-horizontal-mono-white.svg"
+			srcset="https://corsproxy.io/?url=https://static.openfoodfacts.org/images/logos/off-logo-horizontal-mono-white.svg"
 			media="(prefers-color-scheme: dark)"
 		/>
 		<img
-			src="https://static.openfoodfacts.org/images/logos/off-logo-horizontal-mono-black.svg"
+			src="https://corsproxy.io/?url=https://static.openfoodfacts.org/images/logos/off-logo-horizontal-mono-black.svg"
 			alt="Open Food Facts"
 		/>
 	</picture>

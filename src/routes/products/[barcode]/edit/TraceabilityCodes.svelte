@@ -2,7 +2,7 @@
 	import Tags from './Tags.svelte';
 
 	const TRACEABILITY_CODES_URL =
-		'https://wiki.openfoodfacts.org/Food_Traceability_Codes/EU_Food_establishments';
+		'https://corsproxy.io/?url=https://wiki.openfoodfacts.org/Food_Traceability_Codes/EU_Food_establishments';
 
 	interface Props {
 		traceabilityCodes?: string;

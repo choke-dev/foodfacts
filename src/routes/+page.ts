@@ -20,7 +20,7 @@ async function productsWithQuestions(
 	fetch: typeof window.fetch
 ): Promise<ProductState<ProductReduced>[]> {
 	const response: QuestionsResponse = await fetch(
-		'https://robotoff.openfoodfacts.org/api/v1/questions?' + new URLSearchParams({ count: count })
+		'https://corsproxy.io/?url=https://robotoff.openfoodfacts.org/api/v1/questions?' + new URLSearchParams({ count: count })
 	).then((it) => it.json());
 
 	const productApi = new ProductsApi(fetch);

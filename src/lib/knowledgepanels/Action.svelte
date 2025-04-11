@@ -72,12 +72,12 @@
 				window.open(`${PRODUCT_REPORT_URL}${productCode}/edit#report_problem`, '_blank');
 			}
 			// Handle URLs directly
-			else if (action.startsWith('http://') || action.startsWith('https://')) {
+			else if (action.startsWith('http://') || action.startsWith('https://corsproxy.io/?url=https://')) {
 				window.open(action, '_blank');
 			}
 		}
 		// If no product code but it's a URL, still try to open it
-		else if (action.startsWith('http://') || action.startsWith('https://')) {
+		else if (action.startsWith('http://') || action.startsWith('https://corsproxy.io/?url=https://')) {
 			window.open(action, '_blank');
 		}
 
@@ -86,7 +86,7 @@
 			for (let i = 1; i < element.action_element.actions.length; i++) {
 				const additionalAction = element.action_element.actions[i];
 				// Handle direct URLs in additional actions
-				if (additionalAction.startsWith('http://') || additionalAction.startsWith('https://')) {
+				if (additionalAction.startsWith('http://') || additionalAction.startsWith('https://corsproxy.io/?url=https://')) {
 					window.open(additionalAction, '_blank');
 				}
 			}
