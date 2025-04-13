@@ -80,5 +80,8 @@
 			"@vercel/speed-insights",
 			"esbuild"
 		]
+	},
+	"dependencies": {
+		"@sveltejs/adapter-netlify": "^5.0.0"
 	}
 }
