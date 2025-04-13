@@ -29,7 +29,7 @@
 	let { data }: Props = $props();
 	let product = $derived(data.state.product);
 	let lang = $derived($preferences.lang);
-	let showAllCategories = false;
+	let showAllCategories = $state(false);
 
 	$derived: {
 		// Reset showAllCategories when product changes
@@ -142,12 +142,16 @@
 								{categories[tag] != null ? getOrDefault(categories[tag].name, lang) : tag}
 							</a>
 						{/each}
-						{#if product.categories_tags.length > 5 && !showAllCategories}
-							<button 
+						{#if product.categories_tags.length > 5}
+							<button
 								class="btn btn-ghost btn-sm"
-								on:click={() => showAllCategories = true}
+								onclick={() => showAllCategories = !showAllCategories}
 							>
-								Show More ({product.categories_tags.length - 5} more)
+								{#if showAllCategories}
+									Show Less
+								{:else}
+									Show More ({product.categories_tags.length - 5} more)
+								{/if}
 							</button>
 						{/if}
 					{/await}
