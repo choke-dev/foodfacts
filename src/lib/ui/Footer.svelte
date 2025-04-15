@@ -88,13 +88,14 @@
 <div class="bg-base-200 flex flex-col items-center justify-center gap-3 px-6 py-5">
 	<picture>
 		<source
-			srcset="https://corsproxy.io/?url=https://static.openfoodfacts.org/images/logos/off-logo-horizontal-mono-white.svg"
+			srcset="./FOODSTER.svg"
 			media="(prefers-color-scheme: dark)"
+			style="filter: brightness(0) invert(100%)"
 		/>
 		<img
-			src="https://corsproxy.io/?url=https://static.openfoodfacts.org/images/logos/off-logo-horizontal-mono-black.svg"
-			alt="Open Food Facts"
-		/>
+			src="./FOODSTER.svg"
+			style="filter: brightness(0) invert(100%)"
+			alt="FOODSTER" />
 	</picture>
 
 	<div class="text-sm">

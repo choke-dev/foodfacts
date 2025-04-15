@@ -1,11 +1,15 @@
-<picture class="mx-2 block h-10 w-44 sm:h-12 sm:w-68 lg:mx-6">
+<script lang="ts">
+	let { class: className }: { class?: string } = $props();
+</script>
+
+<picture class="block h-10 sm:h-12 {className}">
 	<source
-		srcset="https://corsproxy.io/?url=https://static.openfoodfacts.org/images/logos/off-logo-horizontal-dark.svg"
+		srcset="./FOODSTER.svg"
 		media="(prefers-color-scheme: dark)"
 	/>
 	<img
-		src="https://corsproxy.io/?url=https://static.openfoodfacts.org/images/logos/off-logo-horizontal-light.svg"
-		alt="OpenFoodFacts Explorer"
+		src="/FOODSTER.svg"
+		alt="FOODSTER"
 		class="h-full w-full"
 	/>
 </picture>
