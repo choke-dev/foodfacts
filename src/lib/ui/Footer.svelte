@@ -94,10 +94,8 @@
 		/>
 		<img
 			src="./FOODSTER.svg"
-			alt="Open Food Facts"
-			class="max-w-md"
 			style="filter: brightness(0) invert(100%)"
-		/>
+			alt="FOODSTER" />
 	</picture>
 
 	<div class="text-sm">
