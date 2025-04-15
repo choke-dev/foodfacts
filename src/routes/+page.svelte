@@ -26,9 +26,8 @@
 			<h3 class="card-title mb-4 block text-2xl md:flex">
 				{$t('home.welcome')}
 				<div class="block xl:inline-block">
-					<Logo />
+					<Logo class="ml-4" />
 				</div>
-				Explorer!
 			</h3>
 			<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 			<p>{@html $t('home.intro_1')}</p>

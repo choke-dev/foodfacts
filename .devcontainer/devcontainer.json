@@ -1,5 +1,5 @@
 {
-	"name": "OpenFoodFacts Explorer",
+	"name": "FOODSTER",
 	"customizations": {
 		"vscode": {
 			"extensions": ["svelte.svelte-vscode"]

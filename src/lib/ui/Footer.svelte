@@ -88,12 +88,15 @@
 <div class="bg-base-200 flex flex-col items-center justify-center gap-3 px-6 py-5">
 	<picture>
 		<source
-			srcset="https://static.openfoodfacts.org/images/logos/off-logo-horizontal-mono-white.svg"
+			srcset="./FOODSTER.svg"
 			media="(prefers-color-scheme: dark)"
+			style="filter: brightness(0) invert(100%)"
 		/>
 		<img
-			src="https://static.openfoodfacts.org/images/logos/off-logo-horizontal-mono-black.svg"
+			src="./FOODSTER.svg"
 			alt="Open Food Facts"
+			class="max-w-md"
+			style="filter: brightness(0) invert(100%)"
 		/>
 	</picture>
 
